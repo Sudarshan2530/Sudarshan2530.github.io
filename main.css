@@ -4864,7 +4864,7 @@ a img {
     
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:600px) {
     .header .site-title {
         margin: 0;
         font-size: 100px
@@ -4879,7 +4879,7 @@ a img {
     margin-top: 10px
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:600px) {
     .header .site-description {
         font-size: 40px
     }
@@ -4908,7 +4908,8 @@ a img {
     margin: 10px
 }
 
-@media only screen and (min-width:550px) {
+
+@media only screen and (min-width:600px) {
     .header-links .link {
         font-size: 20px
     }
@@ -4943,13 +4944,102 @@ a img {
     background: #fff
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:600px) {
     .header-icons .icon {
         width: 35px;
         height: 35px;
         font-size: 35px
     }
 }
+
+/* skills section styling */
+
+.skills .title::after {
+    content: "what i know";
+  }
+  .skills .skills-content .column {
+    width: calc(50% - 30px);
+  }
+  .skills .skills-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .skills .skills-content .left p {
+    text-align: justify;
+  }
+  .skills .skills-content .left a {
+    display: inline-block;
+    background: rgb(123, 43, 214);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 6px;
+    border: 2px solid rgb(209, 190, 194);
+    transition: all 0.3s ease;
+  }
+  
+  .skills .skills-content .right .bars {
+    
+    margin-bottom: 15px;
+  }
+  .skills .skills-content .right .info {
+    margin-left: 300px;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .skills .skills-content .right span {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .skills .skills-content .right .line {
+    margin-left: 300px;
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+  }
+  .skills .skills-content .right .line::before {
+    content: "";
+    
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(67, 37, 218);
+  }
+  .skills-content .right .java::before {
+    width: 90%;
+  }
+  .skills-content .right .sql::before {
+    width: 70%;
+  }
+  .skills-content .right .sb::before {
+    width: 50%;
+  }
+  .skills-content .right .hb::before {
+    width: 50%;
+  }
+  .skills-content .right .html::before {
+    width: 80%;
+  }
+  .skills-content .right .css::before {
+    width: 70%;
+  }
+  .skills-content .right .js::before {
+    width: 60%;
+  }
+  
+
+
+
+
+
 
 .down {
     position: absolute;
@@ -4989,7 +5079,7 @@ a img {
     max-width: 960px
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:600px) {
     #about {
         width: 80%
     }
@@ -5010,7 +5100,7 @@ a img {
     font-size: 16px
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:600px) {
     .user {
         flex-wrap: nowrap;
         font-size: 75px
@@ -5031,7 +5121,7 @@ a img {
     margin: 0 auto
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:600px) {
     #projects {
         width: 80%
     }
@@ -5062,7 +5152,7 @@ a img {
     margin-right: 5px
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:600px) {
     .contents {
         margin-left: 0;
         width: 48%;
@@ -5144,13 +5234,6 @@ a img {
 }
 
 
-
-
-
-
-
-
-
 .text {
     font-size: 20px;
 }
@@ -5204,3 +5287,6 @@ a img {
     margin-left:23%;
 
 }
+
+/*media for Desktop*/
+
