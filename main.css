@@ -5012,6 +5012,7 @@ a img {
     left: 0;
     top: 0;
     background: rgb(67, 37, 218);
+    z-index: 5;
   }
   .skills-content .right .java::before {
     width: 90%;
@@ -5255,6 +5256,7 @@ a img {
     justify-content:space-evenly;
     gap:10%;
     text-align:center;
+    z-index: 100;
 
 }
 
