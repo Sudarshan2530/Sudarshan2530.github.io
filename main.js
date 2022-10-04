@@ -11,3 +11,7 @@ function(){
         attract:{enable:!1,rotateX:600,rotateY:1200}},nb:80},interactivity:{detect_on:"canvas",
         events:{onhover:{enable:!1,mode:"grab"},onclick:{enable:!0,mode:"push"},resize:!0},modes:{grab:{distance:400,line_linked:{opacity:1}},
         bubble:{distance:400,size:40,duration:2,opacity:8,speed:3},repulse:{distance:200,duration:.4},push:{particles_nb:4},remove:{particles_nb:2}}},retina_detect:!0})},!1);
+
+        GitHubCalendar(".calendar", "Sudarshan2530");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "Sudarshan2530", { responsive: true });
