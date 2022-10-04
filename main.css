@@ -4955,6 +4955,14 @@ a img {
 /* skills section styling */
 
 
+
+ .skills-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
   .skills .skills-content .column {
     width: calc(50% - 30px);
     
@@ -4965,21 +4973,42 @@ a img {
     margin-bottom: 10px;
     
   }
+
+  .skills-content .left{
+ 
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+  }
+  .skills-content .right{
+    
+    width: 900px;
+    
+    
+
+  }
   .skills .skills-content .left p {
     text-align: justify;
     
   }
   .skills .skills-content .left a {
-    display: inline-block;
+    
+    align-items: center;
+    justify-content: center;
+    
+
     background: rgb(123, 43, 214);
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
-    margin-top: 20px;
-    margin-left: 300px;
+    margin-bottom: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(209, 190, 194);
+    
     transition: all 0.3s ease;
     
     
@@ -4988,15 +5017,17 @@ a img {
   .skills .skills-content .right .bars {
     
     margin-bottom: 15px;
-    
+    margin-left: 0;
+   
     
   }
   .skills .skills-content .right .info {
-    margin-left: 300px;
+    
     display:flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
+ 
 
   }
   .skills .skills-content .right span {
@@ -5005,7 +5036,7 @@ a img {
    
   }
   .skills .skills-content .right .line {
-    margin-left: 300px;
+    /* margin-left: 300px; */
     height: 5px;
     width: 100%;
     background: lightgrey;
